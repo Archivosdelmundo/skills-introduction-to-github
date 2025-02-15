@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conectando Historias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+        }
+        .stories {
+            padding: 50px 20px;
+        }
+        .story {
+            background: white;
+            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            background: #333;
+            color: white;
+            padding: 50px 20px;
+        }
+        .cta a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Conectando Historias</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historias">Historias</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Descubre, Comparte, Inspira</h1>
+        <p>Un espacio para quienes buscan conectar a través de historias</p>
+    </section>
+
+    <section class="stories" id="historias">
+        <h2>Últimas Historias</h2>
+        <div class="story">
+            <h3>📖 Reflexión sobre "El Principito"</h3>
+            <p>Una historia sobre la importancia de ver con el corazón...</p>
+            <a href="#">Leer más</a>
+        </div>
+        <div class="story">
+            <h3>🌍 Ciudades con historias ocultas</h3>
+            <p>Descubre rincones del mundo llenos de magia y misterio...</p>
+            <a href="#">Leer más</a>
+        </div>
+    </section>
+
+    <section class="cta" id="comunidad">
+        <h2>Únete a la Conversación</h2>
+        <p>Queremos escuchar tu historia. <a href="#">Comparte aquí</a></p>
+    </section>
+
+    <footer id="contacto">
+        <p>&copy; 2025 Conectando Historias - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
